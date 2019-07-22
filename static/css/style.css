@@ -1,0 +1,69 @@
+body{
+	font-family:sans-serif;
+	margin: 0;
+	bottom: 0;
+	font-size: 22px;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+input {outline:none;}
+button {outline:none;}
+header{
+	width: 100%;
+	height: 100vh;
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: url(/static/img/background-texture-2635740_960_720.jpg)no-repeat;
+	background-size: cover;
+}
+
+.chekc_in{
+	display: flex;
+	flex-direction: column;
+	background: white;
+	padding: 60px;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.8);
+		background: linear-gradient(125deg, #FF73B9, #C5DDE8);
+	border-radius: 10px;
+	    width: 30%
+}
+.chekc_in span{
+	margin-bottom: 70px;
+	text-align: center;
+}
+input{
+	width: 100%;
+	height: 20px;
+	background: transparent;
+	border-bottom: 1px solid black;
+	border-right: none;
+	border-top: none;
+	border-left: none;
+	font-size: 22px;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.email{
+	margin-top: 50px;
+}
+
+.button_chekc_in{
+	width: 100%;
+	height: 60px;
+	margin-top: 30px;
+	font-size: 22px;
+	background: transparent;
+	border: 1px solid black;
+}
+
+.button_chekc_in:hover{
+	background: linear-gradient(45deg, #FF324D, #7D1926);
+	cursor: pointer;
+}
+

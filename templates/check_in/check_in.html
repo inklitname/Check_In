@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Форма Регистрации</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css'%}">
+</head>
+<body>
+	<header>
+
+		<div class="chekc_in">
+		<span>Регистрация :</span>
+			<form class="form-row" action="" method="post">{% csrf_token %}
+        {{ form }}
+                <div>
+                <button class="button_chekc_in" type="submit">
+                    <span>Отправить</span>
+                </button>
+            </div>
+            </form>
+
+		</div>
+
+
+
+
+	</header>
+</body>
+</html>
